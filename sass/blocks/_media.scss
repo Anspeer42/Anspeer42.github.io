@@ -1,0 +1,31 @@
+@media (max-width: 1024px) {
+    .container {
+        padding: 0 25px;
+    }
+    .header {
+        &__logo {
+            img {
+                width: 85%;
+            }
+        }
+    }
+    .promo {
+        &__header {
+            font-size: 35px;
+        }
+        &__subheader {
+            font-size: 19px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .promo {
+        &__wrapper {
+            margin-top: 75px;
+        }
+        &__icons {
+            margin-top: 35px;
+        }
+    }
+}
